@@ -23,9 +23,6 @@ public class Main {
                 .collect(summingInt(Dish::getCalories));
         System.out.println(totalCalories);
 
-        Validator numericValidator = new Validator(s -> s.matches("\\d+"));
-        Validator lowerCastValidator = new Validator(s -> s.matches("[a-z]+"));
-        System.out.println(numericValidator.validate("123"));
-        System.out.println(lowerCastValidator.validate("abc"));
+
     }
 }
