@@ -1,6 +1,6 @@
 package java8_in_action.ch08;
 
-import com.khwu.java8_in_action.ch08.Point;
+import com.khwu.java8_in_action.ch08_refactor_test_debug.Point;
 import org.junit.Test;
 
 import java.util.Arrays;
