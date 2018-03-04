@@ -1,4 +1,4 @@
-package com.khwu.stream;
+package com.khwu.java8_in_action.ch05_work_with_stream;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import static java.util.stream.Collectors.joining;
 
-public class Main {
+public class Practice {
     public static void main(String[] args) {
         Trader raoul = new Trader("Raoul", "Cambridge");
         Trader mario = new Trader("Mario","Milan");

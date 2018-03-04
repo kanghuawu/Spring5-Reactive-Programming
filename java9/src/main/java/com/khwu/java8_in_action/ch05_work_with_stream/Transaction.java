@@ -1,4 +1,4 @@
-package com.khwu.stream;
+package com.khwu.java8_in_action.ch05_work_with_stream;
 
 public class Transaction{
     private final Trader trader;
